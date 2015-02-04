@@ -1,0 +1,29 @@
+{
+    "name": "grimmlink/unik",
+    "description": "Make your list entries unique",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume FREMONT",
+            "email": "grimmlink@gmail.com"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "~3.3@dev",
+        "components/jquery": "~2.1",
+        "jackmoore/autosize": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "jackmoore/autosize",
+                "version": "dev-master",
+                "dist": {
+                    "url": "https://github.com/jackmoore/autosize/archive/master.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ]
+}
